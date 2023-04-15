@@ -23,7 +23,7 @@ public class CryptoMarket_Main {
                     break;
                 case "fix":
                     //Фиксируем прибыль
-                    profit += (long)stockAccount.money - 1000;
+                    profit += (long)stockAccount.money - 1000; // (long) is needed for potential loss of precision.
                     System.out.println("Profit is " + profit);
                     //На счету остается минимальный остаток
                     stockAccount.money = 1000;
