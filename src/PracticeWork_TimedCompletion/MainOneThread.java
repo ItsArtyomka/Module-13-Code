@@ -53,7 +53,7 @@ public class MainOneThread {
             }
         };
 
-        // Conclusion
+        // Conclusion. Running the threads.
         addingThread.start();
         sortingThread.start();
         removeThread.start();
