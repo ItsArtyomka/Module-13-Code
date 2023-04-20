@@ -66,6 +66,6 @@ public class MainOneThread {
         // Recording final time
         long end = System.currentTimeMillis();
 
-        System.out.println("Total time: " + (end - start) + " ms"); // Output from ~12ms to ~1440ms
+        System.out.println("Total time: " + (end - start) + " ms"); // Output from ~1200ms to ~1440ms
     }
 }
